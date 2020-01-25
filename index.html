@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Symbol:</h1>
+    <input class="SYMBOL" value="MSFT" type="text">
+    <button class="start">Submit</button><br>
+    <!-- <button class="tester">test</button><br>     -->
+    
+    <h3 class="today">Today:</h3>
+    <h3 class="bank">MyBank:</h3>
+    <h3 class="Cbank">CompBank:</h3>
+    
+    <select id="SELECT">
+        <option value="BUY">BUY</option>
+        <option value="SELL">SELL</option>        
+    </select>
+
+    <input id="COMP" type="number" value="2" style="display: none;">
+
+    <button type="submit" class="next">NEXT</button>
+    
+    <div class="reset"></div>    
+    
+    <canvas id="bar-chart" width="20%"></canvas>
+    <canvas id="line-chart" width="800" height="450"></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./test.js"></script>
+    
+</body>
+</html>
